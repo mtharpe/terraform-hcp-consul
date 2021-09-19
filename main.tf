@@ -1,6 +1,6 @@
 provider "vault" {
-  address   = data.terraform_remote_state.hcp.outputs.consul_public_address
-  token     = hcp_consul_cluster_root_token.consul_root_token.token
+  address = data.terraform_remote_state.hcp.outputs.consul_public_address
+  token   = hcp_consul_cluster_root_token.consul_root_token.token
 }
 
 provider "hcp" {}
