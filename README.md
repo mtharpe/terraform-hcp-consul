@@ -1,8 +1,10 @@
+[![Terraform Testing and Release](https://github.com/mtharpe/terraform-hcp-consul/actions/workflows/terraform.yml/badge.svg)](https://github.com/mtharpe/terraform-hcp-consul/actions/workflows/terraform.yml)
+
 # terraform-hcp-consul
 
 ## Requirements
 
-No requirements.
+HCP Account
 
 ## Providers
 
